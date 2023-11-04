@@ -1,0 +1,2 @@
+2023-11-02 20:48:38,084 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 2, 20, 48, 38, 84932), 'method': 'GET', 'url': '/tasks/'}
+2023-11-02 20:48:38,096 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 2, 20, 48, 38, 96057), 'method': 'GET', 'url': '/tasks'}
