@@ -3,3 +3,16 @@
 2023-11-04 11:27:36,761 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 11, 27, 36, 761402), 'method': 'GET', 'url': '/products'}
 2023-11-04 11:28:12,943 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 11, 28, 12, 943900), 'method': 'GET', 'url': '/task'}
 2023-11-04 11:29:55,013 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 11, 29, 55, 13785), 'method': 'GET', 'url': '/Task'}
+2023-11-04 14:51:26,694 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 51, 26, 694706), 'method': 'GET', 'url': '/task'}
+2023-11-04 14:52:28,365 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 52, 28, 365144), 'method': 'GET', 'url': '/task'}
+2023-11-04 14:56:40,380 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 56, 40, 380085), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 14:58:30,245 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 58, 30, 245320), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 14:58:48,593 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 58, 48, 592102), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 14:59:05,048 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 59, 5, 48778), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 14:59:15,545 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 14, 59, 15, 545087), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:00:49,968 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 0, 49, 968344), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:01:33,519 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 1, 33, 519031), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:02:27,936 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 2, 27, 936755), 'method': 'GET', 'url': '/tasks'}
+2023-11-04 15:02:40,777 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 2, 40, 777962), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:03:14,466 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 3, 14, 466077), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:06:19,079 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 6, 19, 79901), 'method': 'POST', 'url': '/tasks'}
