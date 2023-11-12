@@ -16,3 +16,29 @@
 2023-11-04 15:02:40,777 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 2, 40, 777962), 'method': 'POST', 'url': '/tasks'}
 2023-11-04 15:03:14,466 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 3, 14, 466077), 'method': 'POST', 'url': '/tasks'}
 2023-11-04 15:06:19,079 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 6, 19, 79901), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:09:18,299 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 9, 18, 299054), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 15:11:56,991 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 15, 11, 56, 991506), 'method': 'GET', 'url': '/tasks'}
+2023-11-04 19:53:44,206 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 53, 44, 205301), 'method': 'POST', 'url': '/tasks'}
+2023-11-04 19:54:01,569 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 54, 1, 569675), 'method': 'GET', 'url': '/tasks'}
+2023-11-04 19:55:05,524 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 55, 5, 524378), 'method': 'PUT', 'url': '/tasks'}
+2023-11-04 19:55:22,467 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 55, 22, 467320), 'method': 'PUT', 'url': '/tasks'}
+2023-11-04 19:55:27,229 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 55, 27, 229562), 'method': 'PUT', 'url': '/tasks'}
+2023-11-04 19:55:28,294 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 55, 28, 288126), 'method': 'PUT', 'url': '/tasks'}
+2023-11-04 19:55:28,929 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 4, 19, 55, 28, 929683), 'method': 'PUT', 'url': '/tasks'}
+2023-11-11 20:21:11,279 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 21, 11, 278224), 'method': 'POST', 'url': '/tasks'}
+2023-11-11 20:23:59,435 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 23, 59, 435139), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:52:24,261 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 52, 24, 261639), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:52:41,444 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 52, 41, 444898), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:53:04,396 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 53, 4, 396035), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:53:20,836 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 53, 20, 836838), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:53:45,336 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 53, 45, 336947), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 20:53:57,190 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 20, 53, 57, 190967), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 21:06:04,012 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 21, 6, 4, 12216), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 21:06:23,551 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 21, 6, 23, 551088), 'method': 'GET', 'url': '/tasks'}
+2023-11-11 21:07:45,317 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 21, 7, 45, 317656), 'method': 'PUT', 'url': '/tasks'}
+2023-11-11 21:08:27,166 - request_logger - INFO - {'timestamp': datetime.datetime(2023, 11, 11, 21, 8, 27, 166252), 'method': 'PUT', 'url': '/tasks'}
+2023-11-12 07:16:42,363 - routes.tasks - ERROR - Error deleting task by ID: 2 or more items returned, instead of 1
+2023-11-12 07:24:48,205 - routes.tasks - ERROR - Error retrieving tasks: Cannot resolve field "_id"
+2023-11-12 07:25:57,609 - routes.tasks - ERROR - Error retrieving tasks: Cannot resolve field "_id"
+2023-11-12 07:34:04,146 - routes.tasks - ERROR - Error retrieving tasks: Not a query object: {'_id': '6550304f2d37f4167a723b2c'}. Did you intend to use key=value?
+2023-11-12 07:38:01,187 - routes.tasks - ERROR - Error retrieving tasks: Not a query object: {<built-in function id>: ObjectId('6550304f2d37f4167a723b2c')}. Did you intend to use key=value?

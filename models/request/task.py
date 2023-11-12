@@ -4,7 +4,6 @@ from typing import Optional
 
 
 class Task(BaseModel):
-    task_id: int
     title: str
     description: str
     status: bool

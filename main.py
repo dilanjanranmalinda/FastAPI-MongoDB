@@ -1,24 +1,23 @@
-import logging
 from fastapi import FastAPI
 import uvicorn
 from database.connection import connect_db
-from logger.task_logger import request_logging_middleware
 from routes.products import products_api
 from routes.tasks import tasks_api
-
-logging.basicConfig(
-    filename='requests.log',
-    level=logging.INFO,  # Set the log level to INFO for request logging
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-app.middleware('http')(request_logging_middleware)
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 app.include_router(products_api)
 
 app.include_router(tasks_api)
+
 
 @app.on_event("startup")
 async def startup_event():
